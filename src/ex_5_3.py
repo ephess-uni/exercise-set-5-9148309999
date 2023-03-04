@@ -7,6 +7,7 @@ This module contains an entry point that:
 """
 import numpy as np
 import argparse
+import os
 try:
     from src.util import get_repository_root
 except ImportError:
